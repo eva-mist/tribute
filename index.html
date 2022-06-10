@@ -5,9 +5,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Tribute page</title>
         <style>
-            main {
+            body {
                 background-color: #000000;
                 margin: 40px 35px 35px 25px;
+            }
+            p a:link, p a:visited {
+                color: goldenrod;
+                text-decoration: underline;
+            }
+            p a:hover {
+                color: rgb(204, 102, 102);
             }
 
             .sect,h1,h3,p,a,table {
@@ -17,14 +24,11 @@
                 margin-right: 20px;
                 text-align: justify;
             }
-            .achi{
-                text-align: left;
-                color: rgba(243, 167, 2, 0.616);
-            }
 
-            h1,h3 {
+            h1,h2,h3 {
                 text-align: left;               
-                color: rgba(243, 167, 2, 0.616);
+                color: rgba(33, 10, 238, 0.671);
+                text-decoration: underline;
             }
 
             #header {
@@ -32,16 +36,13 @@
                 font-style: italic;
                 font-size: 80px;
                 font-family: sans-serif;
-            }
-
-            a{
                 text-decoration: none;
             }
 
             img {
                 border-radius: 20px;
                 display: block;
-                margin-left: 15px;
+                margin-left: auto;
                 margin-right: auto;
                 max-width: 70%;
                 height: auto;
@@ -60,33 +61,36 @@
                 padding-left: 25px;
                 padding-right: 25px;
                 margin-right: auto;
+
             }
             figcaption{
                 font-size: small;
+                text-align: center;
             }
 
             th, td {
                 padding: 15px;
             }
-            thead{
+
+            thead {
                 height: 70px;
                 background-color: rgba(10, 4, 66, 0.671);
             }
-           tbody{
+           
+            tbody {
                height: 35px;
                background-color: rgba(243, 236, 236, 0.055);
            }
         </style>
     </head>
     <body>
-        <main>
         <section class="sect">        
             <h1 id="header">Lee Tae-min</h1>
             <figure>
             <a href="https://www.gettyimages.com/photos/taemin" target="_blank">
             <img src="https://lh3.googleusercontent.com/Vbt8T_5Jow7NL5Yl0aBGSf-bZnyF5Ur9oDRLnB_1GiATV9w95Qm49mlEaSdUkezJ9z8Faj29qrrO-RXAfqN5CykybLTFTIF-MQ=w780-rj-l80-nu-e365">
+            <figcaption>A photo of Lee Tae-Min</figcaption>
             </a>
-            <figcaption>An photo of Lee Tae-Min</figcaption>
             </figure>
             <h1>Introduction</h1>
             <p>
@@ -101,7 +105,7 @@
                 even after 12 years in the industry. Also considering how young he was when he debuted, it show that age can not stop anyones success as far as you continue to perfect your art and keep on striving hard. He has also shown that he can pull off any genre or discography and that he can bring
                 his own meaning into a story and tell it through dance. He doesn't only excel in dancing and singing but has proved time and again his brilliance in academics and sports. My favourite work from him is his song Criminal which is part of his Act 1: Never Gonna Dance Again album.
             </p>
-            <h1 class="achi">Achievements</h1>
+            <h1>Achievements</h1>
             <table>
                 <thead>
                 <tr>
@@ -205,6 +209,5 @@
                 </tbody>
             </table>
             </section>
-        </main>
     </body>
 </html>
