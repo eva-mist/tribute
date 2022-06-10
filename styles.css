@@ -1,0 +1,92 @@
+main {
+    background-color: #000000;
+    margin: 40px 35px 35px 25px;
+}
+
+.sect,
+h1,
+h3,
+p,
+a,
+table {
+    color: #ffffff;
+    font-family: Arial, Georgia, sans-serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+.achi {
+    text-align: left;
+    color: rgba(243, 167, 2, 0.616);
+}
+
+h1,
+h3 {
+    text-align: left;
+    color: rgba(243, 167, 2, 0.616);
+}
+
+#header {
+    text-align: center;
+    font-style: italic;
+    font-size: 80px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 20px;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    max-width: 70%;
+    height: auto;
+}
+
+div img {
+    border-radius: 20px;
+    display: block;
+    margin-left: 15px;
+    margin-right: auto;
+    max-width: 70%;
+    height: auto;
+}
+
+table,
+td,
+th {
+    border: 1px solid #0f1e748f;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 70%;
+    padding: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: auto;
+}
+
+figcaption {
+    font-size: small;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+thead {
+    height: 70px;
+    background-color: rgba(10, 4, 66, 0.671);
+}
+
+tbody {
+    height: 35px;
+    background-color: rgba(243, 236, 236, 0.055);
+}
